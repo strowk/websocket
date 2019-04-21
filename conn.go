@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/gopherjs/gopherwasm/js"
-	"github.com/gopherjs/websocket/websocketjs"
+	"github.com/strowk/websocket/websocketjs"
 )
 
 func beginHandlerOpen(ch chan error, removeHandlers func()) func(ev js.Value) {
